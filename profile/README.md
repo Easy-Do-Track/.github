@@ -31,10 +31,10 @@
 | --- | --- | --- |
 | 프로필 관리 | react.js | 사용자 프로필 생성 및 제거<br/>프로필 선택 시 뷰어 페이지로 이동 |
 | 트래커 정보 출력 | react.js | Easy-Do-Driver로부터 수신한 트래커 연결 정보 출력 |
-| 3D 모델 출력 | Three.js, ammo.js | Easy-Do-Driver로부터 수신한 데이터를 이용하여 사용자의 움직임에 따라 포즈가 바뀌도록 3D 모델 출력 |
-| 3D 모델 변경 | Three.js, ammo.js | 3D 모델 출력 시 보이는 3D 모델을 변경하는 기능 |
-| 배경 색상 변경 | Three.js, ammo.js | 원하는 배경 색으로 변경<br/>크로마키 기능을 제공하기 위해 추가된 기능 |
-| 웹 성능 모니터링 | Three.js, ammo.js | FPS, 메모리 등의 정보 출력 |
+| 3D 모델 출력 | Three.js<br/>ammo.js | Easy-Do-Driver로부터 수신한 데이터를 이용하여 사용자의 움직임에 따라 포즈가 바뀌도록 3D 모델 출력 |
+| 3D 모델 변경 | Three.js<br/>ammo.js | 3D 모델 출력 시 보이는 3D 모델을 변경하는 기능 |
+| 배경 색상 변경 | Three.js<br/>ammo.js | 원하는 배경 색으로 변경<br/>크로마키 기능을 제공하기 위해 추가된 기능 |
+| 웹 성능 모니터링 | Three.js<br/>ammo.js | FPS, 메모리 등의 정보 출력 |
 
 ### 💪 Easy-Do-Tracker 🦵
 
