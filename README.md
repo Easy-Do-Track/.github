@@ -1,5 +1,3 @@
-# Public Readme
-
 # 🐱 Easy Do Track 🐱
 
 ### 저가 풀 바디 트래킹 기술 개발
@@ -12,23 +10,20 @@
 
 ## 🛠️ Tech Stack 🛠️
 
-[https://img.shields.io/badge/-Raspberry--Pi--pico-yellow?style=for-the-badge](https://img.shields.io/badge/-Raspberry--Pi--pico-yellow?style=for-the-badge)
+![https://img.shields.io/badge/-Raspberry--Pi--pico-yellow?style=for-the-badge](https://img.shields.io/badge/-Raspberry--Pi--pico-yellow?style=for-the-badge)
+![https://img.shields.io/badge/-C--language-brightgreen?style=for-the-badge](https://img.shields.io/badge/-C--language-brightgreen?style=for-the-badge)
 
-[https://img.shields.io/badge/-C--language-brightgreen?style=for-the-badge](https://img.shields.io/badge/-C--language-brightgreen?style=for-the-badge)
+![https://img.shields.io/badge/-Go-blue?style=for-the-badge](https://img.shields.io/badge/-Go-blue?style=for-the-badge)
+<img src="https://github.com/Easy-Do-Track/.github/blob/main/images/Untitled.png?raw=true" width=30 height=30 alt="(c) Renee French, licensed under the Creative Commons 3.0 Attributions license"/>
+![https://img.shields.io/badge/Gorilla_Web_Toolkit-hotpink?style=for-the-badge](https://img.shields.io/badge/Gorilla_Web_Toolkit-hotpink?style=for-the-badge)
 
-![Untitled](Public%20Readme%205e0b84b563d14ee9a12dcf72f82f8d7f/Untitled.png)
-
-[https://img.shields.io/badge/-Go-blue?style=for-the-badge](https://img.shields.io/badge/-Go-blue?style=for-the-badge)
-
-[https://img.shields.io/badge/-Javascript-orange?style=for-the-badge](https://img.shields.io/badge/-Javascript-orange?style=for-the-badge)
-
-[https://img.shields.io/badge/-React.js-purple?style=for-the-badge](https://img.shields.io/badge/-React.js-purple?style=for-the-badge)
-
-[https://img.shields.io/badge/-three.js-cyan?style=for-the-badge](https://img.shields.io/badge/-three.js-cyan?style=for-the-badge)
+![https://img.shields.io/badge/-Javascript-orange?style=for-the-badge](https://img.shields.io/badge/-Javascript-orange?style=for-the-badge)
+![https://img.shields.io/badge/-React.js-purple?style=for-the-badge](https://img.shields.io/badge/-React.js-purple?style=for-the-badge)
+![https://img.shields.io/badge/-three.js-cyan?style=for-the-badge](https://img.shields.io/badge/-three.js-cyan?style=for-the-badge)
 
 ## ⚙️ 시스템 구성 ⚙️
 
-![Untitled](Public%20Readme%205e0b84b563d14ee9a12dcf72f82f8d7f/Untitled%201.png)
+![system diagram](https://github.com/Easy-Do-Track/.github/blob/main/images/Untitled%201.png?raw=true)
 
 ### 📺 Easy-Do-Viewer 📺
 
@@ -52,7 +47,7 @@
 | 초기화 | 스위치 | GPIO | pico-sdk | 트래커 초기화 |
 | 센서 정보 전송 |  | UDP | pico-sdk | 측정한 원시 센서 데이터를 데이터 처리 서버로 전송 |
 
-### **🪛** Easy-Do-Driver **🪛**
+### 🪛 Easy-Do-Driver 🪛
 
 | 기능명 | 사용 라이브러리 | 설명 |
 | --- | --- | --- |
