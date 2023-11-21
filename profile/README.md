@@ -29,13 +29,11 @@
 
 | 기능명 | 사용 라이브러리 | 설명 |
 | --- | --- | --- |
-| 프로필 관리 | react.js | 사용자 프로필을 생성하고 제거할 수 있는 기능
-프로필 선택 시 뷰어 페이지로 이동 |
+| 프로필 관리 | react.js | 사용자 프로필 생성 및 제거 / 프로필 선택 시 뷰어 페이지로 이동 |
 | 트래커 정보 출력 | react.js | Easy-Do-Driver로부터 수신한 트래커 연결 정보 출력 |
 | 3D 모델 출력 | Three.js, ammo.js | Easy-Do-Driver로부터 수신한 데이터를 이용하여 사용자의 움직임에 따라 포즈가 바뀌도록 3D 모델 출력 |
 | 3D 모델 변경 | Three.js, ammo.js | 3D 모델 출력 시 보이는 3D 모델을 변경하는 기능 |
-| 배경 색상 변경 | Three.js, ammo.js | 원하는 배경 색으로 변경
-크로마키 기능을 제공하기 위해 추가된 기능 |
+| 배경 색상 변경 | Three.js, ammo.js | 원하는 배경 색으로 변경 / 크로마키 기능을 제공하기 위해 추가된 기능 |
 | 웹 성능 모니터링 | Three.js, ammo.js | FPS, 메모리 등의 정보 출력 |
 
 ### 💪 Easy-Do-Tracker 🦵
@@ -47,16 +45,13 @@
 | 초기화 | 스위치 | GPIO | pico-sdk | 트래커 초기화 |
 | 센서 정보 전송 |  | UDP | pico-sdk | 측정한 원시 센서 데이터를 데이터 처리 서버로 전송 |
 
-### 🪛 Easy-Do-Driver 🪛
+### 🪛 Easy-Do-Driver 
 
 | 기능명 | 사용 라이브러리 | 설명 |
 | --- | --- | --- |
 | 트래커 센서 정보 수신 | net | UDP로 센서 데이터 수신 |
 | 센서 데이터 처리 |  | 수신한 센서 데이터에 쿼터니언 연산을 적용 |
-| HTTP API | net/http
-encoding/json
-github.com/gorilla/handlers
-github.com/gorilla/mux | 연결된 포트 정보 등 통계 정보 전송 |
+| HTTP API | net/http<br/>encoding/json<br/>github.com/gorilla/handlers<br/>github.com/gorilla/mux | 연결된 포트 정보 등 통계 정보 전송 |
 | WebSocket API | github.com/gorilla/websocket | 처리 완료된 각도 데이터를 뷰어로 스트리밍 |
 
 ## 빌드 방법
